@@ -1,0 +1,117 @@
+
+
+body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-image: url("nature-g6ca8502ef_1920.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+	color: rgb(233, 239, 240);
+    background-color: #0787B4;
+	background-position: center;
+	height: 50px;
+	width: 100%;
+	padding-top: 5px;
+	display: block;
+	margin-top: 0px;
+	top: 0;
+	margin-bottom: 50px;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+p {
+	font-size: 14.5pt;
+	font-weight: bold;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	color: rgb(77, 219, 224);
+	overflow: hidden;
+}
+
+
+/*---------table----------*/
+#tab-ttt {
+	padding: 5px;
+	font-size: 4em;
+	width: 300px;
+	height: 310px;
+	margin-left: auto;
+	margin-right: auto;
+	color: rgb(252, 237, 237);
+	text-align: center;
+	border: 1px #BFBFBF solid;
+	border-radius: 4px;
+	vertical-align: center;
+	box-shadow: 1px 1px 1px #BBB;
+}
+
+/*---------column----------*/
+#tab-ttt td {
+	border-collapse: collapse;
+	border-left: 5px #BBB solid;
+	border-bottom: 5px #BBB solid;
+}
+
+
+#tab-ttt td:first-child {
+	border-left: none;
+}
+
+#tab-ttt tr:last-child td {
+	border-bottom: none;
+}
+
+/*---------cell----------*/
+#tab-ttt td {
+	cursor: pointer;
+	height: 95px;
+	width: 95px;
+}
+
+#tab-ttt td:hover {
+	background-color: rgb(19, 20, 20);
+}
+
+/*---------restart button----------*/
+#bttn-restart {
+	font-weight: bold;
+	display: block;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 1.5em;
+	width: 205px;
+	background: #00DBEB;
+	color:#333;
+	border: none;
+	border-radius: 6px;
+	cursor: pointer;
+}
+
+#bttn-restart:hover {
+	background-color: #1DC5FF;
+}
+
+#bttn-restart:active {
+	background: #0787B4;
+}
+
+#bttn-restart:disable {
+	color: #FFF;
+	background: #CDCDCD;
+}
+
+footer p{
+	color: #FFF;
+	background-color: #0787B4;
+	overflow: hidden;
+}
